@@ -1,0 +1,183 @@
+/*THIS IS MY CSS TEMPLATE */
+
+/*
+
+/*********************************************************************
+ LOADS IN A NICE RESET TO ENSURE ALL BROWSERS HAVE THE SAME BASE STYLES
+*********************************************************************/
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css');
+
+/*********************************************************************
+  YOUR MOBILE/BASE STYLES GO HERE
+*********************************************************************/
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    /* Sets default font-size to 16px, ensuring 1em = 16px; */
+    font-size: 16px;
+}
+
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css');
+
+* {
+    box-sizing: border-box;
+}
+
+header h1,{
+text-transform: uppercase;
+}
+
+
+html, body {
+    font-size: 16px;
+}
+
+body {
+    background-color:#FFE8F3;
+    color: #black;
+}
+
+.resume {
+    max-width:800px;
+    margin: auto;
+    padding: 20px;
+}
+
+body {
+background-color:light pink;
+}
+
+
+h1,header{
+text-align:center;
+font-weight:auto ;
+}
+
+h3{section class="experience"> 
+text-align:left;
+}
+
+header {
+    font-family: Georgia, serif;
+    margin-left: 40px;
+}
+
+
+.profile {
+    font-family: "Times New Roman", serif;
+    margin-left: 40px;
+}
+
+.education {
+    font-family: "Times New Roman", serif;
+    margin-left: 40px;
+
+}
+
+.experience {
+    font-family: "Times New Roman", serif;
+    margin-left: 40px;
+}
+
+.skills {
+    font-family: "Times New Roman", serif;
+    margin-left: 40px;
+}
+
+.hobbies {
+    font-family: "Times New Roman", serif;
+    margin-left: 40px;
+}
+
+h1, h2,h3, p, li,  {
+    font-size: 16px;
+    font-weight: normal;
+  
+}
+
+
+.profile h2 {
+    color: blue;
+}
+
+.education h2 {
+    color: blue;
+}
+
+.experience h2 {
+    color: blue;
+}
+
+.fellowships h2 {
+    color: blue;
+}
+
+.coursework h2 {
+    color: blue;
+}
+
+.leadership h2 {
+    color: blue;
+}
+
+
+/* Problem: Some sections are too close together and others are too far apart */
+.profile {
+    margin-bottom: 20px;
+}
+
+.education {
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+.experience {
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+.fellowships{
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+.coursework {
+    margin-top: 20px;
+}
+
+.leadership{
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+
+
+p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+ul {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/*********************************************************************
+  YOUR TABLET/DESKTOP STYLES GO HERE
+*********************************************************************/
+@media(min-width: 681px) {
+    /* Any adjustments for tablets and larger go here.
+    Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
+}
+
+/*********************************************************************
+  YOUR DESKTOP-ONLY STYLES GO HERE
+*********************************************************************/
+@media(min-width: 729px) {
+    /* Any adjustments for desktop and larger go here.
+    Note these styles will be applied to anything 729px or larger -- so desktop */
+}
