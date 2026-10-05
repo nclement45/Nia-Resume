@@ -56,13 +56,20 @@ text-align:center;
 font-weight:auto ;
 }
 
-h3{section class="experience"> 
-text-align:left;
-}
 
 header {
-    font-family: Georgia, serif;
+    font-family: Oswald, serif;
     margin-left: 40px;
+    // <weight>: Use a value from 100 to 900
+// <uniquifier>: Use a unique and descriptive class name
+
+.lexend-<uniquifier> {
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
 }
 
 
